@@ -6,3 +6,5 @@
 * augmentation(generation-step1/2): step 1에서 한글 리뷰를 생성, step 2에서 생성된 한글 리뷰를 난독화하여 데이터 증강을 실시
 * augmentation(generation): shuffle로 증강된 데이터셋에 generation된 데이터셋을 병합(증강된 dataset으로 test dataset 추론 시 약 90%의 정확률을 달성)
 * test_finetuning_v2: test dataset 추론, gemma 모델에 적합한 prompt를 통해 정확률을 높임
+
+### 최종적으로 90.311%의 정확도를 보이며 14등으로 대회를 종료
