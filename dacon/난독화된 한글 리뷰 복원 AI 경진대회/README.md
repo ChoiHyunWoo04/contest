@@ -7,4 +7,4 @@
 * augmentation(generation): shuffle로 증강된 데이터셋에 generation된 데이터셋을 병합(증강된 dataset으로 test dataset 추론 시 약 90%의 정확률을 달성)
 * test_finetuning_v2: test dataset 추론, gemma 모델에 적합한 prompt를 통해 정확률을 높임
 
-### 최종적으로 90.311%의 정확도를 보이며 14등으로 대회를 종료
+### 팀원분들께서 (난독화 리뷰, 복원 리뷰) 쌍 데이터 생성을 통해 증강에 도움을 주심. 최종적으로 90.311%의 정확도를 보이며 14등으로 대회를 종료하였음.
